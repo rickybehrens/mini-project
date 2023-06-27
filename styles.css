@@ -1,17 +1,22 @@
 .header {
     background-color: darkgreen;
     color: white;
-    border: 10px solid wheat;
+    border-bottom: 10px solid wheat;
+    padding: 20px;
 }
 
 a {
     font-size: 16px;
+    color: white;
+}
+
+a ::after {
+    color: white;
 }
 
 li {
-    
-    position: relative;
-    right: 0px;
+    display: inline;
+    margin: 10px;
 }
 
 .pic {
